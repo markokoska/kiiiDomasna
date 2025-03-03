@@ -12,6 +12,7 @@ import mk.ukim.finki.emt.sharedkernel.domain.base.AbstractEntity;
 public class Driver extends AbstractEntity<DriverId> {
     boolean status;
     Car car;
+    Car car1;
     String name;
 
     private Driver() {
